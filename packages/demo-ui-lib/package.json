@@ -7,9 +7,10 @@
     "build": "rimraf ../../lib && vue-tsc --noEmit && vite build"
   },
   "keywords": [],
-  "author": "程序员优雅哥",
+  "author": "Awwwait",
   "license": "ISC",
   "dependencies": {
+    "@demo-ui-lib/crop-img": "workspace:^1.0.0",
     "@demo-ui-lib/foo": "workspace:^"
   },
   "devDependencies": {

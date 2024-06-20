@@ -13,7 +13,8 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "declaration": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "noImplicitAny": false, // 是否在表达式和申明上有隐含的any类型时报错
   },
   "include": ["../**/*.ts", "../**/*.d.ts", "../**/*.tsx", "../**/*.vue"],
   "exclude": ["../**/node_modules/"]

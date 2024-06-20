@@ -1,10 +1,12 @@
 import { App } from 'vue'
 import Foo from '@demo-ui-lib/foo'
+import CropImg from '@demo-ui-lib/crop-img'
 // import component end
 import '../scss/index.scss'
 
 const components = [
-  Foo
+  Foo,
+  CropImg
 ] // components
 
 // 全局动态添加组件
