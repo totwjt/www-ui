@@ -40,7 +40,7 @@
     "pub:npm": "pnpm publish --access=public",
     "lint": "eslint \"{cli,packages,docs,example}/**/*.{js,ts,vue,jsx,tsx}\" --fix"
   },
-  "keywords": [],
+  "keywords": ["wjt", "ui", "vue3", "vite", "component", "library"],
   "license": "ISC",
   "workspaces": [
     "packages/*",
