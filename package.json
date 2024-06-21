@@ -1,5 +1,5 @@
 {
-  "name": "www-ui",
+  "name": "www-wjt-ui",
   "version": "1.0.0",
   "description": "Vue3组件库",
   "author": "Awwwait",
@@ -8,6 +8,9 @@
   "main": "./lib/demo-ui-lib.umd.js",
   "module": "./lib/demo-ui-lib.es.js",
   "types": "./lib/demo-ui-lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "./lib",
     "package.json",
@@ -34,6 +37,7 @@
     "gen:component": "pnpm run -C cli gen",
     "start:verdaccio": "pnpm verdaccio",
     "pub:local": "pnpm publish --registry http://localhost:4873/",
+    "pub:npm": "pnpm publish --access=public",
     "lint": "eslint \"{cli,packages,docs,example}/**/*.{js,ts,vue,jsx,tsx}\" --fix"
   },
   "keywords": [],
