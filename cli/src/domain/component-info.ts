@@ -5,7 +5,7 @@ import { Config } from '../config'
 export class ComponentInfo {
   /** 中划线分隔的名称，如：nav-bar */
   lineName: string
-  /** 中划线分隔的名称（带组件前缀） 如：yyg-nav-bar */
+  /** 中划线分隔的名称（带组件前缀） 如：www-nav-bar */
   lineNameWithPrefix: string
   /** 首字母小写的驼峰名 如：navBar */
   lowCamelName: string
@@ -21,9 +21,9 @@ export class ComponentInfo {
   /** 组件所在的路径 */
   fullPath: string
 
-  /** 组件的前缀 如：yyg */
+  /** 组件的前缀 www */
   prefix: string
-  /** 组件全名 如：@yyg-demo-ui/xxx */
+  /** 组件全名 如：@www-ui/xxx */
   nameWithLib: string
 
   constructor (componentName: string, description: string, componentType: string) {

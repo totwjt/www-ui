@@ -3,7 +3,7 @@ import { createComponent } from './command/create-component'
 import { c } from './util/log-utils'
 
 export const mainEntry = () => {
-  c('yyg-demo-ui cli 工具')
+  c('www-ui cli 工具')
 
   program.version(require('../package').version)
     .usage('<command> [arguments]')

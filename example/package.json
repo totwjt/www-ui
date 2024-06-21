@@ -13,12 +13,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.63.3",
+    "sass": "^1.77.6",
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-plugin-vue-setup-extend": "^0.4.0"
   },
   "dependencies": {
-    "@demo-ui-lib/demo-ui-lib": "workspace:^",
-    "element-plus": "^2.3.6"
+    "@ant-design/icons-vue": "^7.0.1",
+    "@demo-ui-lib/demo-ui-lib": "workspace:^1.0.0",
+    "ant-design-vue": "4.x",
+    "element-plus": "^2.7.5"
   }
 }

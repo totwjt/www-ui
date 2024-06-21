@@ -1,5 +1,5 @@
 <template>
-  <www-crop-img></www-crop-img>
+  <www-desensitization type="phone">13260462222</www-desensitization>
 </template>
 
 <script lang="ts" setup>

@@ -5,7 +5,7 @@
   "scripts": {
     "gen": "ts-node ./index.ts create"
   },
-  "author": "程序员优雅哥",
+  "author": "awwwait",
   "license": "ISC",
   "devDependencies": {
     "@types/inquirer": "8.2.5",

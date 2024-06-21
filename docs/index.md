@@ -11,7 +11,7 @@ hero:
   tagline: 组件库描述 / SLOGAN
   image:
     src: /logo.png
-    alt: YYG Admin UI
+    alt: www-ui
   actions:
     - theme: brand
       text: 快速开始

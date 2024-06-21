@@ -1,5 +1,5 @@
 <template>
-  <yyg-foo :msg="msg"></yyg-foo>
+  <www-foo :msg="msg"></www-foo>
 </template>
 
 <script lang="ts" setup>

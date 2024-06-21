@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue'
 import { cropImgProps } from './types'
 
-const NAME = 'yyg-crop-img'
+const NAME = 'www-crop-img'
 
 export default defineComponent({
   name: NAME,
@@ -11,7 +11,7 @@ export default defineComponent({
     return () => (
       <div class={NAME}>
         <div>
-          yyg-crop-img
+          www-crop-img
         </div>
       </div>
     )
