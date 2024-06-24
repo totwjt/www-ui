@@ -1,43 +1,42 @@
-import { ExtractPropTypes } from 'vue'
+import { ExtractPropTypes } from "vue";
 
 export const desensitizationProps = {
-  // 需要脱敏的字段
   label: {
     type: String,
-    default: null
+    default: null,
   },
   // 脱敏类型 idCard phone number
   type: {
     type: String,
-    default: ''
+    default: "number",
   },
   // 脱敏长度
   length: {
     type: Number,
-    default: 6
+    default: 6,
   },
   iconSize: {
     type: Number,
-    default: 16
+    default: 16,
   },
   dot: {
     type: String,
-    default: '*'
+    default: "*",
   },
   // 脱敏内容
   value: {
     type: String,
-    default: ''
+    default: "",
   },
   beforLen: {
     type: Number,
-    default: 2
+    default: 0,
   },
   afterLen: {
     type: Number,
-    default: 2
-  }
-} as const
+    default: 0,
+  },
+} as const;
 
 export type DesensitizationProps = ExtractPropTypes<
   typeof desensitizationProps

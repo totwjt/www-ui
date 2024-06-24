@@ -14,8 +14,8 @@ export default defineComponent({
     return () => (
       <div class={NAME}>
         <h1>www-Admin-UI Demo</h1>
-        <p class={NAME + '__description'}>{ props.msg }</p>
-        <el-button type='primary' onClick={onBtnClick}>点击我</el-button>
+        {/* <p class={NAME + '__description'}>{ props.msg }</p>
+        <el-button type='primary' onClick={onBtnClick}>点击我</el-button> */}
       </div>
     )
   }
