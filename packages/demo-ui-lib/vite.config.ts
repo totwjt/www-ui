@@ -20,7 +20,8 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, './index.ts'),
       name: 'demo-ui-lib',
-      fileName: format => `demo-ui-lib.${format}.js`
+      fileName: format => `demo-ui-lib.${format}.js`,
+      formats: ['es', 'cjs', 'umd'],
     },
     outDir: path.resolve(__dirname, '../../lib'),
     rollupOptions: {
