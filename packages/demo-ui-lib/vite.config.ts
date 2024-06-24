@@ -16,9 +16,11 @@ export default defineConfig({
       skipDiagnostics: true
     })
   ],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "../scss/index.scss";`
+      }
     }
   },
   build: {
