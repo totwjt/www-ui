@@ -1,6 +1,6 @@
 {
   "name": "@totwjt/www-ui",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Vue3组件库",
   "author": "Awwwait",
   "private": false,
@@ -57,7 +57,7 @@
     "example/*"
   ],
   "dependencies": {
-    "vue": "^3.4.30"
+    "vue": "3.3.13"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
