@@ -1,13 +1,17 @@
 {
-  "name": "www-ui",
-  "version": "1.0.0",
+  "name": "@totwjt/www-ui",
+  "version": "1.0.8",
   "description": "Vue3组件库",
   "author": "Awwwait",
   "private": false,
   "type": "module",
   "main": "./lib/demo-ui-lib.umd.js",
   "module": "./lib/demo-ui-lib.es.js",
+  "unpkg": "dist/demo-ui-lib.umd.js",
   "types": "./lib/demo-ui-lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "./lib",
     "package.json",
@@ -34,9 +38,17 @@
     "gen:component": "pnpm run -C cli gen",
     "start:verdaccio": "pnpm verdaccio",
     "pub:local": "pnpm publish --registry http://localhost:4873/",
+    "pub:npm": "pnpm publish --access=public",
     "lint": "eslint \"{cli,packages,docs,example}/**/*.{js,ts,vue,jsx,tsx}\" --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "wjt",
+    "ui",
+    "vue3",
+    "vite",
+    "component",
+    "library"
+  ],
   "license": "ISC",
   "workspaces": [
     "packages/*",
@@ -45,7 +57,7 @@
     "example/*"
   ],
   "dependencies": {
-    "vue": "^3.4.29"
+    "vue": "3.3.13"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
@@ -54,7 +66,7 @@
     "@demo-ui-lib/demo-ui-lib": "workspace:1.0.0",
     "@demo-ui-lib/docs": "workspace:^1.0.0",
     "@demo-ui-lib/example": "workspace:^0.0.1",
-    "@types/node": "^18.19.38",
+    "@types/node": "^18.19.39",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-vue": "^4.6.2",

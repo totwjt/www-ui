@@ -10,7 +10,7 @@ import DemoUiLib from '@demo-ui-lib/demo-ui-lib'
 // antd
 
 import Antd from 'ant-design-vue'
-import 'ant-design-vue/dist/reset.css'
+import 'ant-design-vue/dist/antd.css'
 
 const env = import.meta.env
 console.log(env)

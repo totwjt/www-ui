@@ -1,7 +1,6 @@
 import { ExtractPropTypes } from 'vue'
 
 export const desensitizationProps = {
-  // 需要脱敏的字段
   label: {
     type: String,
     default: null
@@ -9,7 +8,7 @@ export const desensitizationProps = {
   // 脱敏类型 idCard phone number
   type: {
     type: String,
-    default: ''
+    default: 'number'
   },
   // 脱敏长度
   length: {
@@ -31,11 +30,11 @@ export const desensitizationProps = {
   },
   beforLen: {
     type: Number,
-    default: 2
+    default: 0
   },
   afterLen: {
     type: Number,
-    default: 2
+    default: 0
   }
 } as const
 
