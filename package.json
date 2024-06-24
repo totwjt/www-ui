@@ -7,6 +7,7 @@
   "type": "module",
   "main": "./lib/demo-ui-lib.umd.js",
   "module": "./lib/demo-ui-lib.es.js",
+  "unpkg": "dist/demo-ui-lib.umd.js",
   "types": "./lib/demo-ui-lib/index.d.ts",
   "publishConfig": {
     "access": "public"
