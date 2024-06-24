@@ -18,13 +18,6 @@ export default defineConfig({
       skipDiagnostics: true
     })
   ],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "../scss/index.scss";`
-      }
-    }
-  },
   build: {
     lib: {
       entry: path.resolve(__dirname, './index.ts'),
