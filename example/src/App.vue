@@ -11,7 +11,7 @@
     <br>
     <br>
     <br>
-    <www-cover-box>
+    <www-cover-box @update:visible="(visible:boolean) => {console.log(visible)}">
       123
     </www-cover-box>
   </div>
