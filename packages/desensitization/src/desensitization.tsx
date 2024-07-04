@@ -20,7 +20,7 @@ export default defineComponent({
       return desensitization(con.value)
     })
 
-    const desensitization = (con) => {
+    const desensitization = (con: any) => {
       if (props.type) {
         return _textEncode(con, ...getType(props.type))
       } else {
